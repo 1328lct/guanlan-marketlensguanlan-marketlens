@@ -1,0 +1,2 @@
+import {fileURLToPath} from 'node:url';import path from 'node:path';process.chdir(path.dirname(fileURLToPath(import.meta.url)));
+import fs from 'node:fs';fs.mkdirSync('dist',{recursive:true});for(const f of ['index.html','style.css','app.mjs','engine.mjs','README.md','AI_USAGE_AND_VALIDATION.md','TEST_PLAN.md','TEST_RESULTS.md'])fs.copyFileSync(f,'dist/'+f);console.log('Static build complete: dist/');
