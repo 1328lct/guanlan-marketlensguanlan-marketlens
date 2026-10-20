@@ -36,7 +36,7 @@ Codex参与设计、编码、核对与测试。运行时是确定性规则引擎
 当前不需要任何环境变量，不提交密钥、受限数据或画像。未来密钥严禁放在浏览器、VITE变量或公开仓库。研究档案只存当前浏览器localStorage，最多15份；导出JSON/Markdown包含用户输入，请勿输入隐私。
 
 ## 已知边界与未做事项
-无真实行情、无在线LLM、无真实行业/历史库、无真实新闻、无账号、无后台、无实际交易日历；合规识别是有限词法守卫，并不保证覆盖全部绕过。未做生产安全审计。源码仓库：https://github.com/1328lct/guanlan-marketlensguanlan-marketlens 。源码上传受GitHub集成403权限阻塞，目前远程仓库只有初始化README；完整源码在本地交付包。网站改用Sites独立托管，发布结果见交付记录。Lovable独立项目因额度耗尽未完成，不作为最终交付。演示视频未制作。
+无真实行情、无在线LLM、无真实行业/历史库、无真实新闻、无账号、无后台、无实际交易日历；合规识别是有限词法守卫，并不保证覆盖全部绕过。未做生产安全审计。源码仓库：https://github.com/1328lct/guanlan-marketlensguanlan-marketlens 。2026-10-21完成GitHub应用安装后，源码、文档和测试已上传；首次交付提交103c73dae363655763e46cab1518ab45582a6c39。网站将使用GitHub Pages托管，启用与公开访问验收尚未完成。Sites源仓库因DNS不可达未部署。Lovable独立项目因额度耗尽未完成，不作为最终交付。演示视频未制作。
 
 ## 验证与交付
-见 AI_USAGE_AND_VALIDATION.md、TEST_PLAN.md、TEST_RESULTS.md。自动化覆盖研究核心；浏览器验收情况独立记录，不把未执行项标通过。将完整项目推送到新GitHub仓库后，可将dist目录发布到任意静态托管平台；不能覆盖第一题。
+见 AI_USAGE_AND_VALIDATION.md、TEST_PLAN.md、TEST_RESULTS.md。自动化覆盖研究核心；浏览器验收情况独立记录，不把未执行项标通过。本仓库已经包含完整源码，验证工作流为.github/workflows/verify.yml；尚未把远程CI记为通过。可将dist目录发布到静态托管平台；本项目独立于第一题。
