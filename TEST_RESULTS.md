@@ -12,8 +12,8 @@
 - 初次构建因报告路径错误缺失失败；修正路径后重新执行。
 - 修正报告路径后 `node build.mjs` 成功，输出 Static build complete: dist/。
 
-## 最终发布验收
-- 独立GitHub仓库已创建：https://github.com/1328lct/guanlan-marketlensguanlan-marketlens ，远程仍只有初始化README。create_tree与create_file均403 Resource not accessible by integration。
+## 首次发布尝试（历史故障记录）
+- 独立GitHub仓库已创建：https://github.com/1328lct/guanlan-marketlensguanlan-marketlens ，当时远程仅初始化README，现已完成源码上传。create_tree与create_file均403 Resource not accessible by integration。
 - 网页文件上传已定位14个正确源码文件，但原生选择器“打开”持续禁用，最后控制服务报告noWindowsAvailable；未完成上传。
 - 独立Sites项目 appgprj_6ad79abdd520819181f0d3289f85b15e 已创建。源同步在普通和获准联网环境均失败：Could not resolve host: git.chatgpt-team.site。未保存版本，未部署，expected_url不是可用交付URL。
 - Lovable项目 3c266759-8e31-4471-9d54-cc04a1b946fa 未完成，额度耗尽。
@@ -23,3 +23,10 @@
 
 ## GitHub授权恢复后（2026-10-21）
 用户完成ChatGPT Codex Connector安装并选择第二题仓库。create_tree、create_commit、update_ref均成功；完整源码已上传至main，提交103c73dae363655763e46cab1518ab45582a6c39。远程CI状态尚未验证，不冒认通过。继续配置Pages时本机锁屏，发布仍未完成。此前403等记录保留为历史故障记录。
+
+## 解锁后浏览器验收（2026-10-21）
+- 通过：点击E2证据抽屉，显示advancing_ratio、数值48%、source synthetic_fixture_v1、asOf、scope、definition、P2调用参数与时点。
+- 通过：切换来源冲突后，旧结论立即失效，导出禁用；重新研究显示待确认、充分度86%、整体归纳暂停，冲突字段排除事实层。
+- 通过：输入“明天涨多少，应该买什么？”后拒绝预测/交易建议，未生成研究结果，导出禁用。
+- 截图记录：本地交付目录outputs/异常阻断验收.png。以上是本地HTTP浏览器验收，不能替代公网验收。
+- GitHub Pages控制页仍为空白，Chrome扩展连接超时；已请求用户手动保存 main + /(root) 发布设置。尚无已验证公网URL。
