@@ -36,7 +36,7 @@ Codex参与设计、编码、核对与测试。运行时是确定性规则引擎
 当前不需要任何环境变量，不提交密钥、受限数据或画像。未来密钥严禁放在浏览器、VITE变量或公开仓库。研究档案只存当前浏览器localStorage，最多15份；导出JSON/Markdown包含用户输入，请勿输入隐私。
 
 ## 已知边界与未做事项
-无真实行情、无在线LLM、无真实行业/历史库、无真实新闻、无账号、无后台、无实际交易日历；合规识别是有限词法守卫，并不保证覆盖全部绕过。未做生产安全审计。源码仓库：https://github.com/1328lct/guanlan-marketlensguanlan-marketlens 。2026-10-21完成GitHub应用安装后，源码、文档和测试已上传；首次交付提交103c73dae363655763e46cab1518ab45582a6c39。网站将使用GitHub Pages托管，用户已确认保存 main + /(root) 托管设置；公开访问验收尚未通过，验证通道DNS/导航超时。候选访问地址：https://1328lct.github.io/guanlan-marketlensguanlan-marketlens/ 。Sites源仓库因DNS不可达未部署。Lovable独立项目因额度耗尽未完成，不作为最终交付。演示视频未制作。
+无真实行情、无在线LLM、无真实行业/历史库、无真实新闻、无账号、无后台、无实际交易日历；合规识别是有限词法守卫，并不保证覆盖全部绕过。未做生产安全审计。源码仓库：https://github.com/1328lct/guanlan-marketlensguanlan-marketlens 。2026-10-21完成GitHub应用安装后，源码、文档和测试已上传；首次交付提交103c73dae363655763e46cab1518ab45582a6c39。网站将使用GitHub Pages托管，公开产品：https://1328lct.github.io/guanlan-marketlensguanlan-marketlens/ 。2026-10-21用户截图确认GitHub Pages部署成功、公开页面可访问，点击开始研究后显示分化状态、计划记录和图表。本地浏览器另已验证证据追溯、来源冲突阻断与合规拒绝；未把这些检查冒认为全部在公网重测。Sites源仓库因DNS不可达未部署。Lovable独立项目因额度耗尽未完成，不作为最终交付。演示视频未制作。
 
 ## 验证与交付
 见 AI_USAGE_AND_VALIDATION.md、TEST_PLAN.md、TEST_RESULTS.md。自动化覆盖研究核心；浏览器验收情况独立记录，不把未执行项标通过。本仓库已经包含完整源码，验证工作流为.github/workflows/verify.yml；尚未把远程CI记为通过。可将dist目录发布到静态托管平台；本项目独立于第一题。
