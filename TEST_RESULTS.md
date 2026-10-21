@@ -30,3 +30,6 @@
 - 通过：输入“明天涨多少，应该买什么？”后拒绝预测/交易建议，未生成研究结果，导出禁用。
 - 截图记录：本地交付目录outputs/异常阻断验收.png。以上是本地HTTP浏览器验收，不能替代公网验收。
 - GitHub Pages控制页仍为空白，Chrome扩展连接超时；已请求用户手动保存 main + /(root) 发布设置。尚无已验证公网URL。
+
+## Pages保存后的外网核验（2026-10-21）
+用户已确认保存 main + /(root) 托管设置。候选地址 https://1328lct.github.io/guanlan-marketlensguanlan-marketlens/ 。本次验证：IAB导航与连接均超时；Web页面抓取不可访问；申请联网权限后curl仍Resolving timed out。无法区分部署尚未完成与当前访问环境问题，因此不将公网验收记为通过。需GitHub Pages设置页显示Your site is live，且在用户浏览器实际打开并完成核心操作后确认。
